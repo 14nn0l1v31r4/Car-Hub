@@ -37,7 +37,7 @@ function CarCard({ car }: CarCardProps) {
             
         </p>
         <div className="relative w-full h-40 my-3 object-contain ">
-            <Image src="/hero.png" 
+            <Image src="public/hero.png" 
             alt="carro" 
             fill priority className="object-contain"/>
         </div>
@@ -47,7 +47,7 @@ function CarCard({ car }: CarCardProps) {
             justify-between text-gray">
                 <div className="flex flex-col justify-center 
                 items-center gap-2">
-                    <Image src="/steering-wheel.svg"
+                    <Image src="public/steering-wheel.svg"
                     alt="direção roda"
                     width={20} height={20} />
                     <p className="text-[14px]">
@@ -58,7 +58,7 @@ function CarCard({ car }: CarCardProps) {
                 </div>
                 <div className="flex flex-col justify-center 
                     items-center gap-2">
-                    <Image src="/tire.svg"
+                    <Image src="public/tire.svg"
                     alt="tire"
                     width={20} height={20} />
                     <p className="text-[14px]">
@@ -68,7 +68,7 @@ function CarCard({ car }: CarCardProps) {
                 </div>
                 <div className="flex flex-col justify-center 
                 items-center gap-2">
-                    <Image src="/gas.svg"
+                    <Image src="public/gas.svg"
                     alt="gas"
                     width={20} height={20} />
                     <p className="text-[14px]">
